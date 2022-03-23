@@ -17,6 +17,16 @@
 
 #### Project structure
 > _build_ - 
->   - _contracts_ - Contains the compiled version of smart contracts.
+>   - _contracts_ - Contains the compiled version of smart contracts.Dont't manually add contracts into this folder.
 >   - _deployments_ - Tracks all the deployments across different chains.
 >   - _interfaces_ - Any interfaces that we are working with
+
+> _contracts_ - All the smart contracts reside under this.
+
+> _interfaces_ - Stores all the interfaces
+
+> _reports_ - Stores any type of report we want to run.
+
+> _scripts_ - Automate tasks like deploying or calling functions.
+
+> _tests_ - For unit testing.
