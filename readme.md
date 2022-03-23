@@ -1,4 +1,4 @@
-#### 
+#### Implement simple storage using brownie
 > Download pipx - 'python3 -m pip install --user pipx'
 > Download pipx ensurepath - 'python3 -m pipx ensurepath --force'. Close and re-opne terminal
 > Run 'pipx install eth-brownie'
