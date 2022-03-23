@@ -14,3 +14,9 @@
 > Run 'brownie --version' to check if brownie is successfully installed or not.
 
 > Create a new brownie project by typing 'brownie init'. 
+
+#### Project structure
+> _build_ - 
+>   - _contracts_ - Contains the compiled version of smart contracts.
+>   - _deployments_ - Tracks all the deployments across different chains.
+>   - _interfaces_ - Any interfaces that we are working with
