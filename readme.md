@@ -1,4 +1,6 @@
-#### Implement simple storage using brownie
+### Implement simple storage using brownie
+
+#### Commands to do initial set up
 > _Download pipx_ - 'python3 -m pip install --user pipx'.
 
 > _Download pipx ensurepath_ - 'python3 -m pipx ensurepath --force'. Close and re-opne terminal.
