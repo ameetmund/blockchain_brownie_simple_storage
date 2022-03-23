@@ -3,8 +3,12 @@
 
 > _Download pipx ensurepath_ - 'python3 -m pipx ensurepath --force'. Close and re-opne terminal.
 
-> Run 'pipx install eth-brownie'
-> Run 'sudo apt install python3.8-venv'
-> Run 'pipx install eth-brownie'. Close and re-open terminal
+> Run 'pipx install eth-brownie'.
+
+> Run 'sudo apt install python3.8-venv'.
+
+> Run 'pipx install eth-brownie'. Close and re-open terminal.
+
 > Run 'brownie --version' to check if brownie is successfully installed or not.
+
 > Create a new brownie project by typing 'brownie init'. 
