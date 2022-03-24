@@ -3,10 +3,10 @@
 pragma solidity =0.6.0;
 
 /**
- * @title Storage
+ * @title SimpleStorage
  * @dev Store & retrieve value in a variable
  */
-contract Storage {
+contract SimpleStorage {
     uint256 favNumber;
 
     struct People {
