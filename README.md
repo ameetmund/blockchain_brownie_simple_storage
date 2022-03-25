@@ -45,3 +45,18 @@
 >   - We can do specific function test by using 'brownie test -k function_name'
 >   - We can also run 'brownie test --pdb' to open python shell to test the values
 >   - We can use 'brownie test -s' to display print statements.
+
+#### How to test using testnet
+> Check the list of available networks using 'brownie networks list'
+> Add the environment variable 'WEB3_INFURA_PROJECT_ID' in the .env file. We can get the project id from infura.io -- > settings. 
+> Add a new function get_account to check if the active network is development or testnet. Then make a call to get_account from deploy_simple_storage function
+> Run the script with the command 'brownie run scripts/deploy.py --network rinkeby'. 
+
+#### How to connect with a specific contract
+> All the smart contract deployments are available under build --> deployments
+> If we want to use a specific contract, then we can get it by using array value. For example if we want to use first version of SimpleStorage contract then we have to use SimpleStorage[0]. For latest version SimpleStorage[-1] must be used.
+> read_value.py is coded to access specific value of smart contract. 
+
+#### Use of console
+> In order to use brownie shell, we need to run is using 'brownie console'. It's a good way to do things in adhoc manner
+
